@@ -1,5 +1,5 @@
 AZURE_LOCATION: 'eastus'
-RESOURCE_NAME_PREFIX: 'asedemo'
+RESOURCE_NAME_PREFIX: 'asedemo2923'
 ENVIRONMENT_TAG: 'dev'
 DEPLOYMENT_NAME: 'ase-secure-baseline'
 VM_USERNAME: 'agent'
