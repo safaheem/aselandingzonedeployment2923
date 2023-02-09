@@ -21,7 +21,7 @@ param availabilityZone string = 'any'
 param osDiskType string = 'Standard_LRS'
 
 @description('Valid SKU indicator for the VM')
-param vmSize string = 'Standard_D4_v3'
+param vmSize string = 'Standard_B2ms'
 
 @description('The user name to be used as the Administrator for all VMs created by this deployment')
 param username string
