@@ -54,7 +54,7 @@ jobs:
         with:
           files: ${{ env.modulePath }}/config.yml
         env:
-          ACCOUNT_NAME: ${{ secrets.AZURE_SUBSCRIPTION }}
+          ACCOUNT_NAME: ${{ secrets.ACCOUNT_NAME }}
 
       - name: Install yq to parse yaml file
         run: |
